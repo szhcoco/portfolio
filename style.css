@@ -134,7 +134,7 @@ body {
     line-height: 0.01em;
   }
 
-  h2 {
+  body.resume h2 {
     color: oklch(from var(--color-accent) 85% 25% h);
     line-height: 2.5;
     margin-top: 2em;
