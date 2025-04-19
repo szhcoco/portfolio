@@ -70,7 +70,7 @@ body.contact form {
   gap: 1em;
 }
 
-body.contact label {
+body.contact label:not(.color-scheme) {
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 1 / -1;
