@@ -165,3 +165,26 @@ input, textarea, button, select {
   font-size: 80%;
   font-family: inherit;
 }
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+dt {
+  font-size: 0.7rem;
+  grid-row: 1;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: bold;
+  
+}
+
+dd {
+  font-size: 2rem;
+  grid-row: 2;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 10;
+}
