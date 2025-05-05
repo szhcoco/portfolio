@@ -104,6 +104,7 @@ body.projects h1 {
   font-size: 400%;
 }
 
+
 .project-year {
   align-self:end;
   font-family: Baskerville;
@@ -269,3 +270,4 @@ dd {
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: 10;
 }
+

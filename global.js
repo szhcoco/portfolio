@@ -22,6 +22,7 @@ let pages = [
   { url: 'contact/', title: 'Contact' },
   { url: 'resume/', title: 'Resume' },
   { url: 'https://github.com/szhcoco', title: 'Profile' },
+  {url: 'meta/', title: 'Meta'},
 ]
 
 let nav = document.createElement('nav');
