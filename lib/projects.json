@@ -1,9 +1,10 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "year": "2023",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, laudantium illum, nisi mollitia sunt voluptate architecto minima voluptates aut eius quod omnis tempora. Recusandae saepe in omnis, eos ratione ipsum!"
+        "title": "Bike traffic in Boston",
+        "year": "2025",
+        "image": "../lib/Screenshot 2025-05-16 at 17.03.13.png",
+        "description": "Visualize boston traffic flow",
+        "link": "https://szhcoco.github.io/bikewatching/"
     },
     {
         "title": "Eum tenetur ea nobis.",

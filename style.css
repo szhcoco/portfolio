@@ -90,6 +90,11 @@ div.projects {
 
 }
 
+.projects img {
+  width: 100%;       
+  height: auto;      
+}
+
 article {
   display: grid;
   grid-template-rows: subgrid;
