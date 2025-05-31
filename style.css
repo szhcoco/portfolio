@@ -253,14 +253,14 @@ input, textarea, button, select {
   font-family: inherit;
 }
 
-dl {
+#stats dl {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
   margin-top: 2rem;
 }
 
-dt {
+#stats dt {
   font-size: 0.7rem;
   grid-row: 1;
   text-transform: uppercase;
@@ -269,7 +269,7 @@ dt {
   
 }
 
-dd {
+#stats dd {
   font-size: 2rem;
   grid-row: 2;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -309,16 +309,107 @@ dl.info[hidden]:not(:hover, :focus-within) {
 }
 
 circle {
+
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+
+  @starting-style {
+    r: 0;
+  }
+
 }
+
+
 
 circle:hover {
   transform: scale(1.5);
 }
 
 circle.selected {
-  
   fill: #ff6b6b!important;
 }
+
+#time-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#slider-row {
+  display: flex;
+  width: 100%;
+}
+
+#slider-row input[type="range"] {
+  flex: 1;
+}
+
+#commit-time {
+  margin-top: 0.5rem;
+  margin-left: auto;
+}
+
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#files > div {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+#files dt {
+  grid-column: 1;
+}
+
+#files dt code small {
+  display: block;
+  opacity: 0.6;
+}
+
+#files dd {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  gap: 0.15em;
+  padding-top: 0.6em;
+  margin-left: 0;
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: steelblue;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#chart {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
+}
+
+
